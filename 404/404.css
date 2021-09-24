@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.caja {
+    background: url('torta_caida.jpg') no-repeat center;
+    background-color: #FFA267;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 25% 25% 30% 20%;
+    grid-template-areas: "logo  . texto .";
+}
+
+.caja .logo {
+    display: flex;
+    max-height: 100%;
+    height: 30vh;
+    max-width: 100%;
+    grid-area: logo;
+}
+
+.caja h1 {
+    display: flex;
+    grid-area: texto;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    color: #FFD1B3;
+    font-size: 60px;
+}

@@ -1,0 +1,46 @@
+.principal {
+    &_seccion1 {
+        @include centrado();
+        z-index: 10;
+
+        .caja__fila {
+            height: 70vh;
+            max-height: 70vh;
+        }
+
+        #fondo {
+            background: url('../images/index/muffins.jpg') no-repeat center 75%/cover;
+            filter: blur(5px);
+            z-index: -5;
+            height: 70vh;
+            max-height: 70vh;
+            position: absolute;
+            margin: 0;
+            left: 0;
+            top: 50;
+        }
+    }
+
+
+    &_seccion2 {
+        @include centrado();
+        height: 30vh;
+        max-height: 30vh;
+        h3 {
+            padding-bottom: 40px
+        }
+        h4 {
+            padding-bottom: 20px;
+        }
+    }
+
+    &_seccion3 {
+        @include centradoIndex();
+        max-height: 40vh;
+    }
+
+    &_seccion4 {
+        @include centradoIndex();
+        margin-top: 5px;
+    }
+}

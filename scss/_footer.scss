@@ -1,0 +1,48 @@
+.piePagina {
+    max-height: 50px;
+    background-color: $bg1;
+
+    .container-fluid {
+        padding: 0;
+
+        .row {
+            margin: 0;
+
+            #pago {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            #logof {
+                display: flex;
+                justify-content: center;
+
+                #logo2 {
+                    max-height: 50px;
+                }
+            }
+
+            #redes {
+                display: flex;
+                justify-content: center;
+
+                .list-unstyled {
+                    display: flex;
+                    margin: auto 0;
+
+                    li:first-child {
+                        margin-right: 2px;
+                    }
+
+                }
+
+            }
+
+            #icono {
+                max-height: 30px;
+            }
+
+        }
+    }
+}

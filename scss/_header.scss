@@ -1,0 +1,42 @@
+.encabezado {
+    max-height: 90px;
+    background-color: $bg1;
+
+    .navbar {
+        margin: 0;
+        padding: 0;
+
+        .container-fluid {
+            padding: 0;
+
+            .navbar-brand {
+                margin: 0;
+                padding: 0;
+
+                #logo {
+                    max-height: 90px;
+                }
+            }
+
+            .navbar-toggler {
+                margin-right: 10px;
+            }
+            
+            #navbarNav {
+                z-index: 9999;
+                background-color: $bg1;
+
+                #link {
+                    padding-left: 10px;
+                }
+
+
+            }
+
+
+        }
+
+
+    }
+
+}
