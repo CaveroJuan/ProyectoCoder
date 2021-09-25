@@ -74,22 +74,22 @@ hr {
         justify-content: center;
         align-items: center; }
   .principal_seccion1 .caja__fila {
-    height: 75vh;
-    max-height: 75vh; }
+    height: 77vh;
+    max-height: 77vh; }
   .principal_seccion1 #fondo {
     background: url("../images/index/muffins.jpg") no-repeat center 75%/cover;
     filter: blur(5px);
     z-index: -5;
-    height: 75vh;
-    max-height: 75vh;
+    height: 77vh;
+    max-height: 77vh;
     position: absolute;
     margin: 0;
     left: 0;
     top: 50; }
 
 .principal_seccion2 {
-  height: 20vh;
-  max-height: 20vh; }
+  height: 25vh;
+  max-height: 25vh; }
   .principal_seccion2 .caja {
     padding: 0;
     display: flex;
@@ -163,13 +163,11 @@ hr {
   font-weight: bold;
   background-color: black; }
 
-.nosotros_seccion1 #calesita {
-  height: 75vh; }
-  .nosotros_seccion1 #calesita #fotoCalesita {
-    max-height: 75vh;
-    height: 75vh;
-    object-position: center center;
-    overflow: hidden; }
+.nosotros_seccion1 #fotoCalesita {
+  max-height: 77vh;
+  height: 77vh;
+  object-position: center center;
+  overflow: hidden; }
 
 .nosotros_seccion2 .caja {
   padding: 0;
@@ -187,12 +185,13 @@ hr {
       align-items: center; }
 
 .nosotros_seccion2 .caja {
-  height: 30vh;
-  max-height: 30vh; }
+  height: 33vh;
+  max-height: 33vh; }
   .nosotros_seccion2 .caja h3 {
     padding-bottom: 30px; }
   .nosotros_seccion2 .caja h4 {
-    padding-bottom: 30px; }
+    padding-top: 10px;
+    padding-bottom: 20px; }
   .nosotros_seccion2 .caja__fila__columna hr {
     margin: 0 auto;
     width: 80%; }
@@ -322,6 +321,10 @@ hr {
     .principalTienda .caja__fila .card-body {
       display: flex;
       flex-direction: column; }
+    .principalTienda .caja__fila #textoCarta {
+      height: 20vh; }
+      .principalTienda .caja__fila #textoCarta p {
+        height: 10vh; }
   .principalTienda .caja__fila2__columna {
     display: flex;
     justify-content: flex-end; }

@@ -5,15 +5,11 @@
             background-color: black;
         }
 
-        #calesita {
-            height: 75vh;
-
-            #fotoCalesita {
-                max-height: 75vh;
-                height: 75vh;
-                object-position: center center;
-                overflow: hidden;
-            }
+        #fotoCalesita {
+            max-height: 77vh;
+            height: 77vh;
+            object-position: center center;
+            overflow: hidden;
         }
 
     }
@@ -22,15 +18,16 @@
         @include centrado();
 
         .caja {
-            height: 30vh;
-            max-height: 30vh;
+            height: 33vh;
+            max-height: 33vh;
 
             h3 {
                 padding-bottom: 30px
             }
 
             h4 {
-                padding-bottom: 30px;
+                padding-top: 10px;
+                padding-bottom: 20px;
             }
 
             &__fila__columna {
