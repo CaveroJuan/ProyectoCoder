@@ -4,16 +4,16 @@
         z-index: 10;
 
         .caja__fila {
-            height: 70vh;
-            max-height: 70vh;
+            height: 75vh;
+            max-height: 75vh;
         }
 
         #fondo {
             background: url('../images/index/muffins.jpg') no-repeat center 75%/cover;
             filter: blur(5px);
             z-index: -5;
-            height: 70vh;
-            max-height: 70vh;
+            height: 75vh;
+            max-height: 75vh;
             position: absolute;
             margin: 0;
             left: 0;
@@ -24,19 +24,18 @@
 
     &_seccion2 {
         @include centrado();
-        height: 30vh;
-        max-height: 30vh;
+        height: 20vh;
+        max-height: 20vh;
         h3 {
-            padding-bottom: 40px
+            padding-bottom: 20px;
         }
         h4 {
-            padding-bottom: 20px;
+            padding-bottom: 10px;
         }
     }
 
     &_seccion3 {
         @include centradoIndex();
-        max-height: 40vh;
     }
 
     &_seccion4 {

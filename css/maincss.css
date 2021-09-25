@@ -74,22 +74,22 @@ hr {
         justify-content: center;
         align-items: center; }
   .principal_seccion1 .caja__fila {
-    height: 70vh;
-    max-height: 70vh; }
+    height: 75vh;
+    max-height: 75vh; }
   .principal_seccion1 #fondo {
     background: url("../images/index/muffins.jpg") no-repeat center 75%/cover;
     filter: blur(5px);
     z-index: -5;
-    height: 70vh;
-    max-height: 70vh;
+    height: 75vh;
+    max-height: 75vh;
     position: absolute;
     margin: 0;
     left: 0;
     top: 50; }
 
 .principal_seccion2 {
-  height: 30vh;
-  max-height: 30vh; }
+  height: 20vh;
+  max-height: 20vh; }
   .principal_seccion2 .caja {
     padding: 0;
     display: flex;
@@ -105,33 +105,33 @@ hr {
         justify-content: center;
         align-items: center; }
   .principal_seccion2 h3 {
-    padding-bottom: 40px; }
-  .principal_seccion2 h4 {
     padding-bottom: 20px; }
+  .principal_seccion2 h4 {
+    padding-bottom: 10px; }
 
-.principal_seccion3 {
-  max-height: 40vh; }
-  .principal_seccion3 .caja {
-    margin-bottom: 5px; }
-    .principal_seccion3 .caja__fila {
-      margin: 0; }
-      .principal_seccion3 .caja__fila__columna {
-        padding: 0; }
-      .principal_seccion3 .caja__fila #foto {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-        max-height: 40vh;
-        height: auto; }
-      .principal_seccion3 .caja__fila #texto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; }
-        .principal_seccion3 .caja__fila #texto #subtitulo {
-          align-self: flex-start; }
-        .principal_seccion3 .caja__fila #texto p {
-          text-align: justify; }
+.principal_seccion3 .caja {
+  margin-bottom: 5px; }
+  .principal_seccion3 .caja__fila {
+    margin: 0; }
+    .principal_seccion3 .caja__fila__columna {
+      padding: 0; }
+    .principal_seccion3 .caja__fila #foto {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      max-height: 40vh;
+      height: auto;
+      min-height: 211px; }
+    .principal_seccion3 .caja__fila #texto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 5px; }
+      .principal_seccion3 .caja__fila #texto #subtitulo {
+        align-self: flex-start; }
+      .principal_seccion3 .caja__fila #texto p {
+        text-align: justify; }
 
 .principal_seccion4 {
   margin-top: 5px; }
@@ -146,12 +146,14 @@ hr {
         margin: 0 auto;
         max-width: 100%;
         max-height: 40vh;
-        height: auto; }
+        height: auto;
+        min-height: 211px; }
       .principal_seccion4 .caja__fila #texto {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; }
+        justify-content: center;
+        padding-bottom: 5px; }
         .principal_seccion4 .caja__fila #texto #subtitulo {
           align-self: flex-start; }
         .principal_seccion4 .caja__fila #texto p {
@@ -160,6 +162,14 @@ hr {
 .nosotros_seccion1 #letrasnosotros {
   font-weight: bold;
   background-color: black; }
+
+.nosotros_seccion1 #calesita {
+  height: 75vh; }
+  .nosotros_seccion1 #calesita #fotoCalesita {
+    max-height: 75vh;
+    height: 75vh;
+    object-position: center center;
+    overflow: hidden; }
 
 .nosotros_seccion2 .caja {
   padding: 0;
@@ -231,11 +241,7 @@ hr {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center center;
-  transition: transform .3s; }
-
-.principalGaleria img:hover {
-  transform: scale(1.05); }
+  object-position: center center; }
 
 .principalGaleria .foto1 {
   grid-area: foto1;

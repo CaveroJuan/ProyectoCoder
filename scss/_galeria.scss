@@ -18,11 +18,7 @@
         height: 100%;
         object-fit: cover;
         object-position: center center;
-        transition: transform .3s;
     }
-    img:hover {
-        transform: scale(1.05); 
-     }
 
     .foto1 {
         grid-area: foto1;
