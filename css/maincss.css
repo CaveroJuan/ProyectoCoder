@@ -320,11 +320,8 @@ hr {
     justify-content: space-around; }
     .principalTienda .caja__fila .card-body {
       display: flex;
-      flex-direction: column; }
-    .principalTienda .caja__fila #textoCarta {
-      height: 20vh; }
-      .principalTienda .caja__fila #textoCarta p {
-        height: 10vh; }
+      flex-direction: column;
+      justify-content: space-between; }
   .principalTienda .caja__fila2__columna {
     display: flex;
     justify-content: flex-end; }
@@ -332,6 +329,22 @@ hr {
       margin-right: 10px; }
     .principalTienda .caja__fila2__columna button:last-child {
       padding: 5px 95px; }
+
+@media only screen and (min-width: 1200px) {
+  #textoCarta {
+    height: 22vh; } }
+
+@media only screen and (max-width: 1199px) {
+  #textoCarta {
+    height: 17vh; } }
+
+@media only screen and (max-width: 480px) {
+  #textoCarta {
+    height: 22vh; } }
+
+@media only screen and (max-width: 375px) {
+  #textoCarta {
+    height: 24vh; } }
 
 .principalContacto #textoContacto {
   text-align: center;

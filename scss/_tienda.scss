@@ -21,13 +21,7 @@
             .card-body {
                 display: flex;
                 flex-direction: column;
-            }
-
-            #textoCarta {
-                height: 20vh;
-                p {
-                    height: 10vh;
-                }
+                justify-content: space-between;
             }
         }
 
@@ -44,5 +38,26 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    #textoCarta {
+        height: 22vh;
+    }
+}
+@media only screen and (max-width:1199px) {
+    #textoCarta {
+        height: 17vh;
+    }
+}
+@media only screen and (max-width:480px) {
+    #textoCarta {
+        height: 22vh;
+    }
+}
+@media only screen and (max-width:375px) {
+    #textoCarta {
+        height: 24vh;
     }
 }
