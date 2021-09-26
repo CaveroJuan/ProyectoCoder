@@ -19,11 +19,13 @@ h2 {
 
 h1 {
   /*font-family: 'Italianno', cursive;*/
-  font-family: Helvetica, sans-serif; }
+  font-family: 'Birthstone', cursive, Helvetica, sans-serif;
+  font-size: 7vh; }
 
 h3 {
   /*font-family: 'Italianno', cursive;*/
-  font-family: Helvetica, sans-serif; }
+  font-family: 'Birthstone', cursive, Helvetica, sans-serif;
+  font-size: 5vh; }
 
 h4 {
   font-family: 'Montserrat', sans-serif; }
@@ -224,7 +226,8 @@ hr {
   margin-right: auto;
   max-width: 100%;
   height: auto;
-  padding: 0 5px; }
+  padding: 0 5px;
+  border-radius: 20px; }
 
 .principalGaleria #fotos {
   height: 1000px;
@@ -236,51 +239,52 @@ hr {
   padding: 10px;
   gap: 1px; }
 
+.principalGaleria figure {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 500ms ease; }
+
 .principalGaleria img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center center; }
+  object-position: center center;
+  transition: all 500ms ease; }
+
+.principalGaleria img:hover {
+  transform: scale(1.2);
+  cursor: pointer; }
 
 .principalGaleria .foto1 {
-  grid-area: foto1;
-  overflow: hidden; }
+  grid-area: foto1; }
 
 .principalGaleria .foto2 {
-  grid-area: foto2;
-  overflow: hidden; }
+  grid-area: foto2; }
 
 .principalGaleria .foto3 {
-  grid-area: foto3;
-  overflow: hidden; }
+  grid-area: foto3; }
 
 .principalGaleria .foto4 {
-  grid-area: foto4;
-  overflow: hidden; }
+  grid-area: foto4; }
 
 .principalGaleria .foto5 {
-  grid-area: foto5;
-  overflow: hidden; }
+  grid-area: foto5; }
 
 .principalGaleria .foto6 {
-  grid-area: foto6;
-  overflow: hidden; }
+  grid-area: foto6; }
 
 .principalGaleria .foto7 {
-  overflow: hidden;
   grid-area: foto7; }
 
 .principalGaleria .foto8 {
-  grid-area: foto8;
-  overflow: hidden; }
+  grid-area: foto8; }
 
 .principalGaleria .foto9 {
-  grid-area: foto9;
-  overflow: hidden; }
+  grid-area: foto9; }
 
 .principalGaleria .foto10 {
-  grid-area: foto10;
-  overflow: hidden; }
+  grid-area: foto10; }
 
 @media only screen and (max-width: 992px) {
   .principalGaleria #fotos {
@@ -328,23 +332,7 @@ hr {
     .principalTienda .caja__fila2__columna button:first-child {
       margin-right: 10px; }
     .principalTienda .caja__fila2__columna button:last-child {
-      padding: 5px 95px; }
-
-@media only screen and (min-width: 1200px) {
-  #textoCarta {
-    height: 22vh; } }
-
-@media only screen and (max-width: 1199px) {
-  #textoCarta {
-    height: 17vh; } }
-
-@media only screen and (max-width: 480px) {
-  #textoCarta {
-    height: 22vh; } }
-
-@media only screen and (max-width: 375px) {
-  #textoCarta {
-    height: 24vh; } }
+      padding: 5px 70px; }
 
 .principalContacto #textoContacto {
   text-align: center;

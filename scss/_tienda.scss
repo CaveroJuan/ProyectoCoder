@@ -34,30 +34,9 @@
                     margin-right: 10px;
                 }
                 button:last-child {
-                    padding: 5px 95px;
+                    padding: 5px 70px;
                 }
             }
         }
-    }
-}
-
-@media only screen and (min-width:1200px) {
-    #textoCarta {
-        height: 22vh;
-    }
-}
-@media only screen and (max-width:1199px) {
-    #textoCarta {
-        height: 17vh;
-    }
-}
-@media only screen and (max-width:480px) {
-    #textoCarta {
-        height: 22vh;
-    }
-}
-@media only screen and (max-width:375px) {
-    #textoCarta {
-        height: 24vh;
     }
 }
