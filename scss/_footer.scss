@@ -1,12 +1,22 @@
 .piePagina {
-    max-height: 50px;
+    max-height: 150px;
+    height: 150px;
     background-color: $bg1;
+    width: 100%;
 
     .container-fluid {
         padding: 0;
+        height: 100%;
+        display: flex;
+        width: 100%;
 
         .row {
             margin: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
 
             #pago {
                 display: flex;
@@ -17,19 +27,23 @@
             #logof {
                 display: flex;
                 justify-content: center;
+                align-items: center;
 
                 #logo2 {
-                    max-height: 50px;
+                    max-height: 120px;
                 }
             }
 
             #redes {
+                height: 100%;
                 display: flex;
-                justify-content: center;
-
+                flex-direction: column;
+                
                 .list-unstyled {
-                    display: flex;
                     margin: auto 0;
+                    display: flex;
+                    justify-content: space-evenly;
+
 
                     li:first-child {
                         margin-right: 2px;

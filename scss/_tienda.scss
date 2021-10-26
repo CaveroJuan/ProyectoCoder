@@ -22,6 +22,16 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                .card-title {
+                    display: flex;
+                    align-items: center;
+                    height: 50px;
+                }
+                .card-text {
+                    display: flex;
+                    align-items: center;
+                    height: 120px;
+                }
             }
         }
 
