@@ -43,5 +43,8 @@
     &_seccion4 {
         @include centradoIndex();
         margin-top: 5px;
+        #texto {
+            padding-top: 5px;
+        }
     }
 }

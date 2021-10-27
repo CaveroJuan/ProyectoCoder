@@ -118,7 +118,6 @@ hr {
     .principal_seccion3 .caja__fila__columna {
       padding: 0; }
     .principal_seccion3 .caja__fila #foto {
-      display: block;
       margin: 0 auto;
       max-width: 100%;
       max-height: 40vh;
@@ -144,7 +143,6 @@ hr {
       .principal_seccion4 .caja__fila__columna {
         padding: 0; }
       .principal_seccion4 .caja__fila #foto {
-        display: block;
         margin: 0 auto;
         max-width: 100%;
         max-height: 40vh;
@@ -160,6 +158,8 @@ hr {
           align-self: flex-start; }
         .principal_seccion4 .caja__fila #texto p {
           text-align: justify; }
+  .principal_seccion4 #texto {
+    padding-top: 5px; }
 
 .nosotros_seccion1 #letrasnosotros {
   font-weight: bold;
@@ -404,7 +404,8 @@ hr {
       .piePagina .container-fluid .row #pago {
         display: flex;
         justify-content: space-evenly;
-        align-items: center; }
+        align-items: center;
+        flex-direction: column; }
       .piePagina .container-fluid .row #logof {
         display: flex;
         justify-content: center;
